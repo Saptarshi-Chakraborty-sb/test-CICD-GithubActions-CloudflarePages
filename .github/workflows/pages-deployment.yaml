@@ -1,6 +1,7 @@
 on: [push]
 jobs:
   deploy:
+    environment: production
     runs-on: ubuntu-latest
     permissions:
       contents: read
